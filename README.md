@@ -1,5 +1,6 @@
 # Level2 P-stage: Object Detection
 <br>
+
 ## Members
 * 김하준 T3066
 * 송민수 T3113
@@ -8,9 +9,11 @@
 * 이창진 T3169
 * 전영우 T3192
 <br>
+
 ## Mentor
 * 강천성 멘토님
 <br>
+
 ## Compatition : 재활용 품목 분류를 위한 Object Detection
 바야흐로 대량 생산, 대량 소비의 시대. 우리는 많은 물건이 대량으로 생산되고, 소비되는 시대를 살고 있습니다. 하지만 이러한 문화는 '쓰레기 대란', '매립지 부족'과 같은 여러 사회 문제를 낳고 있습니다.
 ![image](https://user-images.githubusercontent.com/71958885/164008385-32e7e2c7-e8d3-4661-bcc5-9775910a21a8.png)
