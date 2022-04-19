@@ -24,4 +24,39 @@
 ## Experiments
 | Index | Property | Name | LB Score | Submitter | Date |
 | --- | --- | --- | --- | --- | --- |
-| Single-2stage | Cascade R-CNN / Swin L / FPN / fold0 / inf 800 | 0.6177 | 유승리 캠퍼 | 2022/03/29 |
+| 1 | Single-2stage | Cascade R-CNN / Swin L / FPN / fold0 / inf 800 | 0.6177 | 유승리 캠퍼 | 2022/03/29 |
+| 2 | Single-2stage | Cascade R-CNN / Swin L / FPN / fold0 / inf 1024 | 0.6205 | 유승리 캠퍼 | 2022/03/29 |
+| 3 | Ensemble | 01 / 02 / inf 800, 1024 // nms 0.55 | 0.6423 | 이창진 캠퍼 | 2022/03/29 |
+| 4 | Single-2stage | Cascade R-CNN / Swin L / PAFPN / fold1 / Train 1024 / inf 1024 | 0.6157 | 이창진 캠퍼 | 2022/03/30 |
+| 5 | Single-2stage | Cascade R-CNN / Swin L / PAFPN / fold0 / Train 800 / inf 800 | 0.607 | 유승리 캠퍼 | 2022/03/30 |
+| 6 | Single-2stage | Cascade R-CNN / Swin L / PAFPN / fold0 / Train 800 / inf 1024 | 0.6104 | 유승리 캠퍼 | 2022/03/30 |
+| 7 | Ensemble | 01 / 02 / 05 / 06 // nms 055 | 0.6472 | 유승리 캠퍼 | 2022/03/30 |
+| 8 | Ensemble | 01 / 02 / 05 / 06 / YoloX / WBF 0.55 skip 0.1 | 0.6324 |  | 2022/03/30 |
+| 9 | Ensemble | 01 / 02 / 05 / 06 / YoloX / nms 0.55 | 0.6361 |  | 2022/03/30 |
+| 10 | Ensemble | 14개 모델 / WBF 055, skip 0.1 | 0.6813 | 이창진 캠퍼 | 2022/03/31 |
+| 11 | Ensemble | 16개 모델 / WBF 05, skip 0.08 | 0.685 | 이창진 캠퍼 | 2022/03/31 |
+| 12 | Single-2stage | Cascade R-CNN / Swin L / FPN / fold1 / inf 1024 |  |  | 2022/03/31 |
+| 13 | Single-2stage | Cascade R-CNN / Swin L / FPN / fold2 / inf 1024 |  |  | 2022/03/31 |
+| 14 | Ensemble | 01 / 02 / 12-1 / 12-2 / 13 // nms 055 | 0.6539 | 유승리 캠퍼 | 2022/03/31 |
+| 15 | Single-2stage | Faster_RCNN / Swin_L / FPN / fold0 / inf 512 | 0.5843 | 심준교 캠퍼 | 2022/03/28 |
+| 16 | Single-2stage | Faster_RCNN / Swin_L / PAFPN / fold0 / inf 1024 | 0.6241 | 심준교 캠퍼 | 2022/04/01 |
+| 17 | Single-2stage | Faster_RCNN / Swin_L / PAFPN / fold0 / inf 800 |  | 심준교 캠퍼 | 2022/04/01 |
+| 18 | Ensemble | 22개 모델 / WBF 0.5, skip 0.1 | 0.6894 | 이창진 캠퍼 | 2022/04/01 |
+| 19 | Ensemble | 23개 모델 / WBF 0.55, skip 0.1 | 0.6914 | 이창진 캠퍼 | 2022/04/01 |
+| 20 | Ensemble | 23개 모델 / WBF 0.6, skip 0.1 | 0.6904 | 이창진 캠퍼 | 2022/04/01 |
+| 21 | Ensemble | 23개 모델 / WBF 0.4, skip 0.1 | 0.6778 | 이창진 캠퍼 | 2022/04/01 |
+| 22 | Ensemble | 23개 모델 / WBF 0.55, skip 0.08 | 0.6931 | 이창진 캠퍼 | 2022/04/01 |
+| 23 | Ensemble | 23개 모델 / WBF 0.55, skip 0.06 | 0.6945 | 이창진 캠퍼 | 2022/04/01 |
+| 24 | Single-2stage | Faster_RCNN / Swin_L / PAFPN / fold0 / inf1024 + outlier 제거  | 0.5962 | 이창진 캠퍼 | 2022/04/02 |
+| 25 | Ensemble | Multi-stage Ensemble | 0.676 | 이창진 캠퍼 | 2022/04/02 |
+| 26 | Ensemble | 25개 모델 / WBF 0.55, skip 0.1 / model_weights | 0.6931 | 이창진 캠퍼 | 2022/04/02 |
+| 27 | Ensemble | 25개 모델 / WBF 0.55, skip 0.06 |  |  | 2022/04/02 |
+| 28 | Ensemble | 27개 모델 / WBF 0.55, skip 0.05 |  |  | 2022/04/02 |
+| 29 | Ensemble | 27개 모델 / WBF 0.55, skip 0.05 / model_weights | 0.6984 | 이창진 캠퍼 | 2022/04/02 |
+| 30 | Single-1stage | Yolov5 | 0.5468 | 김하준 캠퍼 | 2022/04/04 |
+| 31 | Single-1stage | Yolov5 | 0.5907 | 김하준 캠퍼 | 2022/04/05 |
+| 32 | Single-1stage | ATSS / Swin-L / FPN | 0.5563 | 유승리 캠퍼 | 2022/03/28 |
+| 33 | Single-2stage | Cascade R-CNN / Swin-L / FPN / bbox head / full | 0.6246 | 유승리 캠퍼 | 2022/04/04 |
+| 34 | Single-2stage | Cascade R-CNN / Swin-L / FPN / focal loss / fold0 | 0.6243 | 유승리 캠퍼 | 2022/04/04 |
+| 35 | Single-2stage | Cascade R-CNN / Swin-L / FPN / focal loss / full | 0.6368 | 유승리 캠퍼 | 2022/04/04 |
+| 36 | Single-1stage | UniverseNet / Swin-L / FPN+SEPC / fold0 | 0.5684 | 유승리 캠퍼 | 2022/04/05 |
