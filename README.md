@@ -27,10 +27,10 @@
 
 ## Our team's contribution
 ```
-* Cross Validation - Stratified Goup Fold
-* Ensemble 코드
-* BiFPN 추가
-* Universenet 추가
+- Cross Validation - Stratified Goup Fold
+- Ensemble 코드
+- BiFPN 추가
+- Universenet 추가
 ```
 <br>
 
