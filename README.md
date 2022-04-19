@@ -1,4 +1,6 @@
 # Level2 P-stage: Object Detection #눈#사람
+![image](https://user-images.githubusercontent.com/71958885/164018511-7474616a-e5c4-421e-b28a-5b35fb43b726.png)
+
 <br>
 
 ## Members
